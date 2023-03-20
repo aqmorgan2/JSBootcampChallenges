@@ -13,13 +13,26 @@ function max (num1 = 0, num2 = 0, num3 = 0) {
   console.log(max(-40, -1, -15))
   
 
-function addUnknown() {
-
+function addUnknown(numA = 0, numB = 0, numC = 0, numD = 0, numE = 0) 
+{
+  total = numA + numB + numC + numD + numE
+  return total
 }
 
-function evenOrOdd() {
+console.log(addUnknown(14, 15, 18))
 
+
+
+function evenOrOdd(num1) 
+{
+    const rem = num1 % 2
+    if (rem == 0) {
+        console.log (num1, ' is even')
+  } else console.log(num1, ' is odd')
+return rem
 }
+console.log(evenOrOdd(-10))
+
 
 function operator() {
 
