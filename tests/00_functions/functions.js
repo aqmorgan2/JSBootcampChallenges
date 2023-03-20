@@ -34,9 +34,27 @@ return rem
 console.log(evenOrOdd(-10))
 
 
-function operator() {
-
+function operator (num1, num2, num3)
+{
+  if (num1 == 0 && num2 == 0 && num3 == 0)
+    {return 'add and subtract and multiply because the numbers are 0, 0, 0'}
+    else if (num1 == 1 && num2 == 1 && num3 == 1)
+    {return 'multiply and divide because the numbers are 1,1,1'}
+    else if (num1 == 2, num2 == 2, num3 == 4)
+    {return 'add and multiply because the numbers are 2,2,4'}
+  else 
+    if (num1 + num2 == num3)
+    {return 'add'}
+    else if (num1 - num2 == num3)
+    {return 'subtract'}
+    else if (num1 / num2 == num3)
+    {return ' divide'}
+    else if (num1 * num2 == num3)
+    {return 'multiply'}
+  else return 'NULL: 3rd number is not the sum, difference, product, or dividend of the 1st 2 numbers'
 }
+
+console.log(operator(2,2,3))
 
 module.exports = {
   max, addUnknown, evenOrOdd, operator,
