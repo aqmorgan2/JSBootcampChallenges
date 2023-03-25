@@ -51,7 +51,7 @@ function operator (num1, num2, num3)
     {return ' divide'}
     else if (num1 * num2 == num3)
     {return 'multiply'}
-  else return 'NULL: 3rd number is not the sum, difference, product, or dividend of the 1st 2 numbers'
+  //else return 'NULL: 3rd number is not the sum, difference, product, or dividend of the 1st 2 numbers'
 }
 
 console.log(operator(2,2,3))
