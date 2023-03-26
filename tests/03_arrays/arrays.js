@@ -5,16 +5,22 @@ function multiply(arr)
     let newTotal = 1
     
     arr = arr.flat()
-
+    console.log(arr.flat())
   for (let i = 0; i< arr.length; i++)
     {      
       newTotal *= arr[i]
     } return newTotal
-console.log(newTotal)
+console.log(newTotal, arr)
 }
   
 
 function includesCopy(arr, searchValue) {
+  let findArr = ''
+
+  for (let i = 0; i< arr.length; i++)
+  {
+    //if findArr[i, = ' arr[]' 
+  }
 
 }
 
