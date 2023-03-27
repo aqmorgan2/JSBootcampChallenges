@@ -15,13 +15,18 @@ console.log(newTotal, arr)
   
 
 function includesCopy(arr, searchValue) {
-  let findArr = ''
+  
+  let findArr = []
 
-  for (let i = 0; i< arr.length; i++)
+    for (let i = 0; i< arr.length; i++)
   {
-    //if findArr[i, = ' arr[]' 
-  }
+    findArr.push(arr[i])
 
+    if (arr.includes(i) == findArr) 
+    {return true}
+    else return false
+  }
+console.log(includesCopy(arr[i]), 0)
 }
 
 function inventory(arr) {
@@ -29,7 +34,13 @@ function inventory(arr) {
 }
 
 function camelCase(str) {
+const camelCaseVar = ''
 
+for (let i = 0; i< arr.length; i = i+2)
+{
+
+  camelCaseVar += str.toUpperCase(0)
+}
 }
 
 function joiner() {

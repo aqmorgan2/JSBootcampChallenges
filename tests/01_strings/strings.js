@@ -10,12 +10,12 @@ return doesInclude
 function cap(str, letter) {
  
   let isIncluded = str.includes(letter)
-const str2 = 'hello'
-const i = str2.includes('e')
+let str2 = 'hello'
+let i = str2.includes('e')
   if (i){
     let newindex = str2.indexOf('e')
 
-    const newStr = str2.slice(newindex, newindex + 1)
+    let newStr = str2.slice(newindex, ++newindex)
 
   return console.log(str2.toUpperCase(l - 1, l))
 }else return 'sorry not found'
