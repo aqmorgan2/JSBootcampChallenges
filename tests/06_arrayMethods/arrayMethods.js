@@ -45,7 +45,7 @@ const rideArray = canRide.map( rideList => {
   } else console.log(rideList.name + ' can ride the ride')
   return rideList.age < 17
 }) 
-return canRideTheRide
+console.log(rideArray)
 }
 
 //console.log(rideArray)
@@ -61,7 +61,11 @@ function indAndVal(origArray) {
 //const Arr1 = origArray.filter( indexandValue => {
  // console.log(indexandValue)
   //return origArray.
+const arrReturned = origArray.map ((indexList, index) => {
+  console.log(indexList, index)
+  return indexList.push(index)
 
+})
 
 }
 
@@ -104,7 +108,7 @@ function getCart() {
 //skip or try 
 }
 
-function findGreater() {
+function findGreater(foundGreater) {
 
 }
 

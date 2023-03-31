@@ -60,7 +60,7 @@ describe('map', () => {
       expect(typeof canRideTheRide).to.equal('function');
     });
 
-    it('takes an array of objects and returns an aray of strings. If 17 or over can ride the ride.', () => {
+    it('takes an array of objects and returns an array of strings. If 17 or over can ride the ride.', () => {
       const canRide = canRideTheRide([
         {
           name: 'Michael Scott',
@@ -155,8 +155,8 @@ describe('map', () => {
   });
 });
 
-describe.only('filter', () => {
-  describe.only('filterEvens', () => {
+describe('filter', () => {
+  describe('filterEvens', () => {
     after(() => {
       spy.restore('filter');
     });

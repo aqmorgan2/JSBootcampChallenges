@@ -7,12 +7,12 @@ const { expect } = require('chai');
   //greet, calc,
 //} = require('./objectMethods');
 
-describe('greet', () => {
+describe.only('greet', () => {
   it('is an object', () => {
     expect(typeof greet).to.equal('object');
   });
 
-  describe('firstName', () => {
+  describe.only('firstName', () => {
     it('is a property in greet', () => {
       expect(greet.hasOwnProperty('firstName')).to.equal(true);
     });
