@@ -29,8 +29,13 @@ function includesCopy(arr, searchValue) {
 console.log(includesCopy(arr[i]), 0)
 }
 
-function inventory(arr) {
+function inventory(arrI, ) {
 
+  let returnArr = []
+  for (let g = 0; g< arr.length; g++)
+  {
+    
+  }
 }
 
 function camelCase(str) {
@@ -38,13 +43,22 @@ const camelCaseVar = ''
 
 for (let i = 0; i< arr.length; i = i+2)
 {
-
-  camelCaseVar += str.toUpperCase(0)
+  const firstLetter = ''
+  camelCaseVar += str.toUpperCase()
 }
+
 }
 
-function joiner() {
+function joiner(arr1, insertStr = ',') {
 
+  let newArr = ""
+
+  for (i=0; i <= arr1.length - 1; i ++)
+  {
+  newArr = newArr + arr1[i] + insertStr
+  } console.log(newArr) 
+  
+console.log(joiner['a','b','c'], '+')
 }
 
 module.exports = {

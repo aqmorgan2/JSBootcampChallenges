@@ -155,8 +155,8 @@ describe('map', () => {
   });
 });
 
-describe('filter', () => {
-  describe('filterEvens', () => {
+describe.only('filter', () => {
+  describe.only('filterEvens', () => {
     after(() => {
       spy.restore('filter');
     });
@@ -194,6 +194,7 @@ describe('filter', () => {
     after(() => {
       spy.restore('filter');
     });
+
     it('returns an array', () => {
       expect(
         Array.isArray(
